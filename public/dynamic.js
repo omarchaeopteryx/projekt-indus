@@ -15,12 +15,11 @@ function translateText(e) {
   alteredText.map(function(i) {
     console.log(i);
     let glyf = document.createElement('div');
-    glyf.innerHTML = "<h1 class='glyph'>" + i + '</h1>';
+    glyf.innerHTML = "<div class='glyph'>" + i + '</div>';
     console.log(glyf);
     userOutput.append(glyf);
   });
 
-  // userOutput.innerHTML = finalText;
   // userOutput.classList.add('glyph');
   // userOutput.innerText = userTranslatedText;
 }
