@@ -10,6 +10,14 @@
   font-style: normal;
 }
 
+.masthead {
+  background-color: grey;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_Seal_at_Mohenjo_Daro.jpg/800px-The_Seal_at_Mohenjo_Daro.jpg');
+  background-repeat: repeat;
+  min-width: 100vh;
+  min-height: 5vh;
+}
+
 body {
   background-color: lightBlue;
 }
@@ -26,6 +34,7 @@ body h2 {
 .glyph {
   font-family: indus-script;
   font-size: 2em;
+  color: brown;
   width: auto;
   height: auto;
   float: left;
@@ -45,4 +54,5 @@ body h2 {
 footer {
   position: fixed;
   bottom: 0;
+  left: 5px;
 }
