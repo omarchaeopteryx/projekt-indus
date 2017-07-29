@@ -19,15 +19,13 @@ body h2 {
   justify-content: center;
 }
 
-.demo {
-  font-family: indus-script; /* Replace with Bootstrap. */
+.glyph {
+  font-family: indus-script;
   width: auto;
   display: flex;
   justify-content: center;
-}
-
-.glyph {
   padding: 2%;
+  transition: all .2s ease-in-out;
 }
 
 .glyph:hover {
