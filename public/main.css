@@ -19,6 +19,10 @@ body h2 {
   justify-content: center;
 }
 
+.glyph-container {
+  min-height: 30vh;
+}
+
 .glyph {
   font-family: indus-script;
   font-size: 2em;
