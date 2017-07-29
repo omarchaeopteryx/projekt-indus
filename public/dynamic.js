@@ -10,16 +10,11 @@ function translateText(e) {
   e.preventDefault();
   let userTranslatedText = userInput.value;
   let alteredText = userTranslatedText.split('');
-  console.log(alteredText);
 
+  // Appending the glyphs one-by-one for user readability:
   alteredText.map(function(i) {
-    console.log(i);
     let glyf = document.createElement('div');
     glyf.innerHTML = "<div class='glyph'>" + i + '</div>';
-    console.log(glyf);
     userOutput.append(glyf);
   });
-
-  // userOutput.classList.add('glyph');
-  // userOutput.innerText = userTranslatedText;
 }
