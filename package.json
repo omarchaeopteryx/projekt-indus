@@ -1,14 +1,12 @@
 {
   "name": "projekt-indus",
   "version": "1.0.0",
-  "description": "A personal learning page.",
+  "description": "An interactive educational page.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "indus"
-  ],
-  "author": "omar malik",
+  "keywords": ["indus"],
+  "author": "O. A. Malik",
   "license": "ISC"
 }
