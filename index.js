@@ -7,6 +7,6 @@ app.get('/', function(req, res) {
   res.render('public/index.html');
 });
 
-app.listen(process.env.PORT || 5000, function() {
+app.listen(process.env.PORT || 8080, function() {
   console.log('App listening on assigned port!');
 });

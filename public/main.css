@@ -29,12 +29,13 @@ body h2 {
 
 .glyph-container {
   min-height: 30vh;
+  padding-top: 1%;
 }
 
 .glyph {
   font-family: indus-script;
   font-size: 2em;
-  color: brown;
+  color: #6b410e;
   width: auto;
   height: auto;
   float: left;
